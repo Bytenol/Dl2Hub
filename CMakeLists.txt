@@ -7,7 +7,7 @@ set(USE_OFFLINE ON)
 if(${USE_OFFLINE})
     set(SDL2_LIB_FILE ${CMAKE_SOURCE_DIR}/deps/SDL-release-2.28.1.zip)
 else()
-    set(SDL2_LIB_FILE "To be set later")
+    set(SDL2_LIB_FILE https://github.com/libsdl-org/SDL/releases/download/release-2.28.1/SDL2-2.28.1.zip)
 endif()
 
 set(CMAKE_CXX_STANDARD 20)
