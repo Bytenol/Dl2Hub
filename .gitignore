@@ -1,0 +1,15 @@
+# vscode project specific directory
+.vscode
+CMakePresets.json
+
+# Clion project specific directory
+.idea
+
+# build directory
+build
+out
+
+deps
+
+*.exe
+*.o
