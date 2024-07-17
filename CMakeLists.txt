@@ -7,6 +7,7 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 add_subdirectory(deps/SDL)
 
 add_subdirectory(example/SimpleGames)
+add_subdirectory(deps/SDL_image-main)
 
 include_directories(deps/SDL/include)
 include_directories(include)
