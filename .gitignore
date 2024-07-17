@@ -9,7 +9,5 @@ CMakePresets.json
 build
 out
 
-deps
-
 *.exe
 *.o
