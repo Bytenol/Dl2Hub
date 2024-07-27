@@ -8,6 +8,7 @@ CMakePresets.json
 # build directory
 build
 out
+emscripten
 
 *.exe
 *.o
