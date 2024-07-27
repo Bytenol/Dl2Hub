@@ -9,7 +9,6 @@ add_subdirectory(deps/SDL)
 add_subdirectory(example/SimpleGames)
 
 include_directories(deps/SDL/include)
-include_directories(include)
 
 include(CTest)
 enable_testing()
