@@ -9,7 +9,7 @@ CMakePresets.json
 build
 cmake-build-debug
 out
-emscripten
+ems_build
 
 *.exe
 *.o
